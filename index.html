@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDOProject</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="model" id="theModel">
+        <div class="container">
+            <div class="model-message">
+                <h2 class="model-message-header">warning</h2>
+                <p class="model-message-text">you can't create an empty to do ,please enter your tc</p>
+                <div class="model-message-buttons">
+                    <button type="button" class="primary" id="deletModel">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="todo-container">
+        <div class="todo-top">
+            <div class="layer">
+                <h1>Create Your<br><span>To Do</span></h1>
+                <div class="todo-form">
+                    <input type="text" placeholder="to do title" id="title">
+                    <button type="button" id="addButton">Create To Do</button>
+                </div>
+            </div>
+        </div>
+        <div class="todo-button">
+            <div class="layer" id="lists">
+                <div class="todo completed">
+                    <h1 class="theTitle">New Product</h1>
+                    <span class="delete-todo">Delete</span>
+                    <span>Completed</span>
+                </div>
+                <div class="todo completed">
+                    <h1 class="theTitle">New Product</h1>
+                    <span class="delete-todo">Delete</span>
+                    <span>Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script> 
+
+</body>
+</html>
